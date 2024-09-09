@@ -1,0 +1,12 @@
+There are many format specifiers we can use, here are some common
+
+%c = Character
+%d = Decimal number (base  10)
+%e = Exponentail floating-point number
+%f = floating-point number
+%i = Interger (base 10)
+%o = Octal number (base 10)
+%s = String
+%u = Unsigned deciaml (integer) number
+%t = Date/time
+%n = NewLine
