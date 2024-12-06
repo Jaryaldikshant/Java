@@ -1,0 +1,6 @@
+1: Tabulation Way: Bottom Up Approch will be used
+2: Memoization Way: Top Down Approch will be used
+
+for every question:
+
+Memoization  ---->  Tabulation -----> Final Solution(Optimal)
