@@ -53,10 +53,10 @@ public class LeftView {
             int size = q.size();
 
             for (int i = 0; i < size; i++) {
-                
+
                 Node temp = q.poll();
 
-                if (i == 0) {
+                if (i == size-1) {
                     lt.add(temp.data);
                 }
 
@@ -78,7 +78,7 @@ public class LeftView {
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 3, 4, 5, -1, 6};
+        int[] arr = {1, 2, 3, 4, -1, -1, -1, 5};
 
         int n = arr.length;
 

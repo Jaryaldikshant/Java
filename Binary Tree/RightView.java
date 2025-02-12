@@ -45,13 +45,14 @@ public class RightView {
 
         while (!q.isEmpty()) {
             int size = q.size();
-
+            // boolean taken = false;
             for (int i = 0; i < size; i++) {
 
                 Node temp = q.poll();
 
-                if (i == size - 1) {
+                if (i == 0) {
                     lt.add(temp.data);
+                    // taken = true;
                 }
 
                 if (temp.left != null) {
@@ -68,7 +69,7 @@ public class RightView {
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 3, 4, 5, -1, 6};
+        int[] arr = {1, 2, 3, 4, -1, -1, -1, 5};
 
         int n = arr.length;
 
