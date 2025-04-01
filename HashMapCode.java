@@ -3,9 +3,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class HashMapCode {
-
-    static class HashMap<K, V> { // generics
+class HashMap<K, V> { // generics
 
         private class Node {
 
@@ -150,6 +148,8 @@ public class HashMapCode {
         }
 
     }
+
+public class HashMapCode {
 
     public static void main(String[] args) {
         HashMap<String, Integer> mpp = new HashMap<>();
