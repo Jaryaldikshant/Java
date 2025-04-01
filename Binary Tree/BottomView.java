@@ -65,9 +65,9 @@ public class BottomView {
             if(temp.right != null){
                 q.add(temp.right);
                 qCol.add(num+1);
-            }
-            
+            }   
         }
+        
         for(int it: mpp.values()){
             System.out.print(it+" ");
         }
